@@ -15,7 +15,10 @@ class Rectangel {
 
 void main () {
     Rectangel r = Rectangel (20,10);
+    r.x = 200;
+    r.y = 100;
 
-    print("umfang: ${r.umfang()}");
-    print("Fläche: ${r.flaeche()}");
+
+    print("Neue umfang: ${r.umfang()}");
+    print("Neue Fläche: ${r.flaeche()}");
 }
